@@ -19,12 +19,12 @@ body {
 }
 
 h1 {
-    font-size: 3.5rem;
-    font-weight: normal;
+    font-size: 3rem;
+    font-weight: bold;
     margin-top: 2rem;
 }
 h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 300;
     margin-bottom: 4rem;
 }
