@@ -50,6 +50,8 @@ let x = setInterval(function() {
         finish.innerText = "Your time nearly up..."
     } else if (distance < 77550311) {
         finish.innerText = "Hurry up bro..."
+    } else if (distance < 27550311) {
+        finish.innerText = "Are you ready..."
     }
 
 
