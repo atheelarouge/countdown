@@ -21,7 +21,7 @@ body {
 h1 {
     font-size: 3.5rem;
     font-weight: normal;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 h2 {
     font-size: 2.5rem;
@@ -49,5 +49,10 @@ h2 {
 
 .countdown-el span {
     font-size: 1rem;
+    font-weight: 300;
+}
+
+.finish {
+    margin-top: 1rem;
     font-weight: 300;
 }
