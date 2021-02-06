@@ -31,7 +31,7 @@ let x = setInterval(function() {
         clearInterval(x)
         finish.innerText = "Let's Start NodeJs & React";
     } else if (distance < 1175503119) {
-        finish.innerText = "Countdown Start";
+        finish.innerText = "Countdown Start!";
     } else if (distance < 1057952807){
         finish.innerText = "Show me what you can do..."
     }else if (distance < 822852183){
@@ -49,7 +49,7 @@ let x = setInterval(function() {
     } else if (distance < 117550311) {
         finish.innerText = "Your time nearly up..."
     } else if (distance < 77550311) {
-        finish.innerText = "Hurry up bro..."
+        finish.innerText = "Hurry up!"
     } else if (distance < 27550311) {
         finish.innerText = "Are you ready..."
     }
