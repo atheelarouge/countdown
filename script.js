@@ -2,6 +2,7 @@
 let countDownDate = new Date("Feb 27, 2021 09:00:00").getTime();
 let finish = document.querySelector('.finish');
 
+
 //Update countdown every one second
 let x = setInterval(function() {
 
@@ -31,25 +32,25 @@ let x = setInterval(function() {
     if(distance < 0) {
         clearInterval(x)
         finish.innerText = "Let's Start NodeJs & React";
-    } else if (distance < 1779146250) {
+    } else if (distance < 1779146250 && distance > 1523172088) {
         finish.innerText = "Countdown Start!";
-    } else if (distance < 1579146250){
+    } else if (distance < 1523172088 && distance > 1379146250){
         finish.innerText = "Show me what you can do..."
-    }else if (distance < 1379146250){
+    } else if (distance < 1379146250 && distance > 1186097500){
         finish.innerText = "Don't be relaxed :)"
-    } else if(distance < 1186097500) {
+    } else if(distance < 1186097500 && distance > 889573125) {
         finish.innerText = "1/3 of Time Expired";
-    } else if (distance < 889573125) {
+    } else if (distance < 889573125 && distance > 593048750) {
         finish.innerText = 'You Half Your Time';
-    } else if (distance < 593048750) {
+    } else if (distance < 593048750 && distance > 493048750) {
         finish.innerText = "You have only 1/3 Time";
-    } else if (distance < 493048750) {
+    } else if (distance < 493048750 && distance > 393875779) {
         finish.innerText = "Time time time..."
-    } else if (distance < 393875779) {
+    } else if (distance < 393875779 && distance > 217550311) {
         finish.innerText = "Your time is tithen..."
-    } else if (distance < 217550311) {
+    } else if (distance < 217550311 && distance > 77550311) {
         finish.innerText = "Your time nearly up..."
-    } else if (distance < 77550311) {
+    } else if (distance < 77550311 && distance > 27550311) {
         finish.innerText = "Hurry up!"
     } else if (distance < 27550311) {
         finish.innerText = "Are you ready..."
